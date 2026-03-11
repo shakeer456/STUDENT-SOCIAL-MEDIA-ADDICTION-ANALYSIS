@@ -1,228 +1,260 @@
 # STUDENT-SOCIAL-MEDIA-ADDICTION-ANALYSIS - AICTE Microsoft Elevate Internship
 
-📊 Student Social Media Addiction Analysis Dashboard
+<h1 align="center">📊 Student Social Media Addiction Analysis</h1>
 
-📌 Project Overview
+<p align="center">
+A <b>Power BI data analytics dashboard</b> that analyzes the impact of social media usage on students' mental health, academic performance, sleep patterns, and addiction levels.
+</p>
 
-This project analyzes student social media usage patterns and their impact on addiction, sleep, mental health, and academic performance using Power BI.
+<hr>
 
-The dashboard provides an interactive visual analytics solution that helps understand how different social media platforms influence students' daily behavior and well-being.
+<h2>📌 Project Overview</h2>
 
-The analysis focuses on identifying patterns between social media usage, addiction levels, sleep hours, mental health scores, academic performance, and relationship conflicts.
+<p>
+This project presents an interactive <b>Power BI dashboard</b> that explores how different social media platforms influence students' daily habits and well-being. 
+The analysis focuses on identifying patterns between <b>social media usage, addiction scores, mental health, sleep hours, and academic performance</b>.
+</p>
 
-🎯 Project Objectives
+<p>
+The dashboard provides visual insights using charts, maps, KPIs, and filters to help understand behavioral trends among students across different countries and academic levels.
+</p>
 
-The main objectives of this project are:
+<hr>
 
-Analyze student social media usage behavior
+<h2>🎯 Objectives</h2>
 
-Identify most used social media platforms
+<ul>
+<li>Analyze the relationship between <b>social media usage and addiction levels</b>.</li>
+<li>Understand how social media affects <b>mental health and sleep patterns</b>.</li>
+<li>Identify the <b>most used social media platforms</b> among students.</li>
+<li>Evaluate the impact of social media on <b>academic performance</b>.</li>
+<li>Compare usage behavior across <b>gender, age, and academic levels</b>.</li>
+</ul>
 
-Evaluate addiction levels among students
+<hr>
 
-Understand the relationship between social media usage and mental health
+<h2>📊 Dashboard Metrics</h2>
 
-Measure the impact of social media on academic performance
+<table>
+<tr>
+<th>Metric</th>
+<th>Description</th>
+</tr>
 
-Visualize conflicts and relationship impact due to social media
+<tr>
+<td><b>Total Students</b></td>
+<td>Total number of students included in the dataset.</td>
+</tr>
 
-📂 Dataset Description
+<tr>
+<td><b>Average Daily Usage</b></td>
+<td>Average number of hours students spend on social media per day.</td>
+</tr>
 
-The dataset contains student information related to their social media usage habits and lifestyle indicators.
+<tr>
+<td><b>Average Addiction Score</b></td>
+<td>Average addiction level measured across all students.</td>
+</tr>
 
-Key Attributes
+<tr>
+<td><b>Average Sleeping Hours</b></td>
+<td>Average number of hours students sleep per night.</td>
+</tr>
 
-Column	                                                      Description
+<tr>
+<td><b>Average Mental Health Score</b></td>
+<td>Overall mental health score across students.</td>
+</tr>
 
-Student_ID	                                                      Unique identifier for each student
+</table>
 
-Age	                                                              Age of the student
+<hr>
 
-Gender	                                                              Male / Female
+<h2>📈 Dashboard Visualizations</h2>
 
-Academic_Level	                                                      High School / Undergraduate / Graduate
+<h3>1️⃣ Most Used Social Media Platform</h3>
 
-Country	                                                              Student's country
+<ul>
+<li><b>X-Axis:</b> Social Media Platform</li>
+<li><b>Y-Axis:</b> Number of Students</li>
+<li><b>Values:</b> Count of students using each platform</li>
+</ul>
 
-Avg_Daily_Usage_Hours	                                              Average daily social media usage
+<p>
+This chart highlights which social media platforms are most popular among students. 
+Platforms like <b>Instagram, TikTok, and Facebook</b> dominate the usage distribution.
+</p>
 
-Most_Used_Platform	                                              Primary social media platform
+---
 
-Affects_Academic_Performance	                                      Whether social media affects studies
+<h3>2️⃣ Mental Health Score Distribution</h3>
 
-Sleep_Hours_Per_Night	                                              Average sleep duration
+<ul>
+<li><b>X-Axis:</b> Social Media Platform</li>
+<li><b>Y-Axis:</b> Sum of Mental Health Score</li>
+<li><b>Legend:</b> Gender (Male / Female)</li>
+</ul>
 
-Mental_Health_Score	                                              Mental health rating
+<p>
+This visualization compares mental health scores across platforms and genders to understand 
+how different platforms may correlate with mental health patterns.
+</p>
 
-Relationship_Status	                                              Single / In Relationship / Complicated
+<p>
+<b>Note:</b> When a numeric field is placed in the <b>Y-Axis</b> in Power BI, it is aggregated by default (usually <b>SUM</b>).
+</p>
 
-Conflicts_Over_Social_Media	                                      Number of conflicts caused by social media
+---
 
-Addicted_Score	                                                      Social media addiction score
+<h3>3️⃣ Overall Analysis by Academic Level</h3>
 
+<ul>
+<li><b>Y-Axis:</b> Academic Level (High School, Undergraduate, Graduate)</li>
+<li><b>X-Axis:</b> Combined Metrics</li>
+<li><b>Values:</b>
+<ul>
+<li>Sum of Addiction Score</li>
+<li>Sum of Avg Daily Usage Hours</li>
+<li>Sum of Sleep Hours Per Night</li>
+</ul>
+</li>
+</ul>
 
-📊 Dashboard Features
+<p>
+This chart compares behavioral patterns across different academic levels, showing how social media usage and addiction vary among students.
+</p>
 
-The Power BI dashboard provides multiple interactive visualizations to explore the dataset.
+---
 
-1️⃣ Key Performance Indicators (KPIs)
+<h3>4️⃣ Addiction by Academic Level</h3>
 
-The dashboard highlights important metrics:
+<ul>
+<li><b>X-Axis:</b> Addiction Score</li>
+<li><b>Y-Axis:</b> Academic Level</li>
+</ul>
 
-Total Students
+<p>
+This analysis highlights which academic groups experience higher levels of social media addiction.
+</p>
 
-Average Daily Social Media Usage
+---
 
-Average Addiction Score
+<h3>5️⃣ Conflicts Over Social Media</h3>
 
-Average Sleep Hours
+<ul>
+<li><b>X-Axis:</b> Relationship Status</li>
+<li><b>Y-Axis:</b> Number of Social Media Conflicts</li>
+</ul>
 
-Average Mental Health Score
+<p>
+This chart shows how social media conflicts differ among students with different relationship statuses.
+</p>
 
-These KPIs provide a quick overview of the overall student behavior.
+---
 
-📈 Visualizations Used
+<h3>6️⃣ Daily Usage by Gender</h3>
 
-1. Most Used Social Media Platform
+<ul>
+<li><b>X-Axis:</b> Gender</li>
+<li><b>Y-Axis:</b> Total Daily Usage</li>
+</ul>
 
-Chart Type: Column Chart
+<p>
+A waterfall visualization that compares daily social media usage between male and female students.
+</p>
 
-Shows the distribution of social media platforms used by students.
+---
 
-Key Insight:
+<h3>7️⃣ Academic Performance Impact by Country</h3>
 
-Instagram and TikTok are the most frequently used platforms.
+<ul>
+<li><b>Map Visualization</b></li>
+<li><b>Location:</b> Country</li>
+<li><b>Legend:</b> Whether social media affects academic performance (Yes / No)</li>
+</ul>
 
-2. Relationship Status Distribution
+<p>
+This map shows global distribution of students whose academic performance is affected by social media.
+</p>
 
-Chart Type: Donut Chart
+<hr>
 
-Displays the proportion of students based on relationship status.
+<h2>🎛 Dashboard Filters</h2>
 
-Key Insight:
+<p>The dashboard includes interactive slicers:</p>
 
-A significant percentage of students are single, followed by those in relationships.
+<ul>
+<li><b>Gender Filter</b></li>
+<li><b>Country Filter</b></li>
+<li><b>Academic Performance Impact Filter</b></li>
+</ul>
 
-3. Average Daily Usage by Age
+<p>
+These filters allow users to dynamically explore the data and analyze trends across different segments.
+</p>
 
-Chart Type: Column Chart
+<hr>
 
-Analyzes how social media usage varies across different age groups.
+<h2>🛠 Tools & Technologies</h2>
 
-Key Insight:
+<ul>
+<li>Power BI</li>
+<li>Data Visualization</li>
+<li>Data Modeling</li>
+<li>Interactive Dashboard Design</li>
+</ul>
 
-Students aged 19–22 show higher daily usage levels.
+<hr>
 
-4. Mental Health Score Distribution
+<h2>📷 Dashboard Preview</h2>
 
-Chart Type: Area / Line Chart
+<p align="center">
+<img src="page<img width="1298" height="730" alt="page_1" src="https://github.com/user-attachments/assets/580a7fb8-72c0-4633-bea9-8efba5b94252" />
+_1.png" width="800">
+</p>
 
-Compares mental health scores across platforms and gender.
+<hr>
 
-Key Insight:
+<h2>📊 Key Insights</h2>
 
-Students using certain platforms frequently may show lower mental health scores.
+<ul>
+<li>Instagram and TikTok are the most widely used platforms among students.</li>
+<li>Higher social media usage correlates with increased addiction scores.</li>
+<li>Students with higher daily usage tend to have lower sleep hours.</li>
+<li>Social media usage shows measurable effects on academic performance.</li>
+<li>Undergraduate students demonstrate higher addiction levels compared to other academic groups.</li>
+</ul>
 
-5. Academic Performance Impact
+<hr>
 
-Chart Type: Map Visualization
+<h2>🚀 Future Improvements</h2>
 
-Displays countries where students reported social media affecting their academic performance.
+<ul>
+<li>Add predictive analytics using machine learning.</li>
+<li>Integrate real-time social media data.</li>
+<li>Include sentiment analysis from social media posts.</li>
+<li>Build a web-based dashboard using Power BI Embedded.</li>
+</ul>
 
-Key Insight:
+<hr>
 
-Social media impact on academics is globally distributed across multiple regions.
+<h2>👨‍💻 Author</h2>
 
-6. Addiction Score by Academic Level
+<p>
+<b>Shakeer Shaik</b><br>
+<b>Data Analytics Enthusiast | Power BI Developer</b><br>
+<b>Feel free to connect if you have feedback or questions!</b><br>
+<b>E-mail : shakeershaik489@gmail.com</b><br>
+<b>LinkedIn : https://www.linkedin.com/in/shakeer-shaik-508958235/</b><br>
 
-Chart Type: Horizontal Bar Chart
 
-Shows addiction scores among different academic groups.
 
-Key Insight:
 
-Undergraduate students show higher addiction levels compared to other groups.
 
-7. Conflicts Over Social Media
+</p>
 
-Chart Type: Column Chart
+<hr>
 
-Analyzes how social media contributes to relationship conflicts.
-
-Key Insight:
-
-Students who are single or in relationships report more conflicts related to social media usage.
-
-8. Overall Behavioral Analysis
-
-Chart Type: Multi-measure Bar Chart
-
-Compares:
-
-Addiction score
-
-Average daily usage
-
-Sleep hours
-
-Across academic levels.
-
-Key Insight:
-
-Higher social media usage often corresponds with higher addiction scores and reduced sleep hours.
-
-🛠 Tools & Technologies Used
-
-Power BI
-
-Data Visualization
-
-Data Cleaning
-
-Interactive Dashboard Design
-
-📊 Key Insights
-
-From the analysis, several patterns emerge:
-
-Students spend an average of ~5 hours daily on social media
-
-Instagram and TikTok dominate student engagement
-
-Higher usage correlates with higher addiction scores
-
-Increased usage is associated with lower sleep duration
-
-Undergraduate students show higher social media addiction levels
-
-Social media usage contributes to relationship conflicts
-
-📷 Dashboard Preview
-
-Main Dashboard
-
-(Add your Power BI screenshot in the repository)
-
-🚀 Future Improvements
-
-Possible enhancements for this project:
-
-Add predictive analytics using machine learning
-
-Perform sentiment analysis on social media usage behavior
-
-Include time-series analysis for usage trends
-
-Integrate real-time social media data
-
-👨‍💻 Author
-
-Shakeer Shaik
-
-Data Analytics Enthusiast | Power BI | Python | SQL
-
-Feel free to connect if you have feedback or questions!
-
-E-mail : shakeershaik489@gmail.com
-
-LinkedIn : https://www.linkedin.com/in/shakeer-shaik-508958235/
+<p align="center">
+⭐ If you found this project useful, consider giving it a star on GitHub!
+</p>
