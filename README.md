@@ -208,9 +208,9 @@ These filters allow users to dynamically explore the data and analyze trends acr
 
 <h2>📷 Dashboard Preview</h2>
 
-<p align="center">
-<img src="page<img width="1298" height="730" alt="page_1" src="https://github.com/user-attachments/assets/580a7fb8-72c0-4633-bea9-8efba5b94252" />
-_1.png" width="800">
+<p align="center">(<img width="1298" height="730" alt="image" src="https://github.com/user-attachments/assets/24fe8c48-045e-4d41-96f9-a89782d52a03" />
+)
+
 </p>
 
 <hr>
