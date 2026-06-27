@@ -1,4 +1,4 @@
-# STUDENT-SOCIAL-MEDIA-ADDICTION-ANALYSIS - AICTE Microsoft Elevate Internship
+# STUDENT-SOCIAL-MEDIA-ADDICTION-ANALYSIS - AICTE Microsoft Elevate Internshid
 
 <h1 align="center">📊 Student Social Media Addiction Analysis</h1>
 
